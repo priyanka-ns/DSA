@@ -1,2 +1,2 @@
-# Candidate-Crud-Application
-This project is created using Angular framework
+# Data Structures & Algorithm
+
