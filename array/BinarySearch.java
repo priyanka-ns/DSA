@@ -1,15 +1,15 @@
 package DSA.array;
 
 /*
-Problem Statement: Find max sum in 2 d array.
-        Input:    array[] = {1, 5, 6, 2, 4}, int k =6
+Problem Statement: Find element using binary search.
+        Input:    array[] = {1, 5, 6, 2, 4}, int k =5
         Output:  true
 */
 
 public class BinarySearch {
     static int binarySearch(int[] arr, int k) {
 
-        int start = arr[0];
+        int start = 0;
         int end = arr.length - 1;
 
         while (start <= end) {
