@@ -36,7 +36,7 @@ public class CeilingFloorLetter {
 
     public static void main(String[] args) {
 
-        System.out.println(ceilingFloor(new char[]{'a','b','c','e','f','j','k'}, 'z',"ceiling"));
-        System.out.println(ceilingFloor(new char[]{'a','b','c','e','f','j','k'}, 'z',"floor"));
+        System.out.println(ceilingFloor(new char[]{'a','c','d','g','h','i','j','k','m'}, 'z',"ceiling"));
+        System.out.println(ceilingFloor(new char[]{'a','b','c','e','f','g','i','j','k'}, 'h',"floor"));
     }
 }
