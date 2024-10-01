@@ -1,5 +1,28 @@
 package DSA.sort;
 
+/**
+ * Problem Statement:
+ * Implement the Bubble Sort algorithm to sort an array of integers in ascending order.
+ * The algorithm repeatedly compares adjacent elements and swaps them if they are in the wrong order.
+ * The process is repeated for every element in the array until no swaps are needed, indicating the array is sorted.
+ * The optimization involves stopping early if no swaps are made in a pass, meaning the array is already sorted.
+ *
+ * Input:
+ * - An unsorted array of integers.
+ *
+ * Output:
+ * - A sorted array of integers in ascending order.
+ *
+ * Example:
+ *
+ * Original array: 2 1 5 4 2
+ *
+ * Sorted array: 1 2 2 4 5
+ *
+ * Constraints:
+ * - The array may contain duplicate elements.
+ * - The array should be sorted in-place (without using additional arrays).
+ */
 public class BubbleSort {
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
