@@ -30,6 +30,7 @@ public class CycleSortSimple {
         }
     }
 
+    //to swap the number
     private static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
