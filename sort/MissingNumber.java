@@ -43,6 +43,7 @@ public class MissingNumber {
         return n;
     }
 
+    //method to swap the numbers
     private static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
