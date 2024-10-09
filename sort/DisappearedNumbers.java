@@ -41,7 +41,7 @@ public class DisappearedNumbers {
         return result;
     }
 
-    // Helper function to swap elements in the array
+    // Function to swap elements in the array
     private static void swap(int[] nums, int i, int j) {
         int temp = nums[i];
         nums[i] = nums[j];
@@ -50,6 +50,6 @@ public class DisappearedNumbers {
 
     public static void main(String[] args) {
         int[] arr = {4, 3, 2, 7, 8, 2, 3, 1};
-        System.out.println(findDisappearedNumbers(arr)); // Output: [5, 6]
+        System.out.println(findDisappearedNumbers(arr));
     }
 }
